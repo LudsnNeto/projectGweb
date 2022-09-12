@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+  
+  body {
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(230, 228, 228);
+    background-color:  rgb(6, 153, 1);
+}
+  a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+  a:link{
+    color: #ffffff;
+}
+  a:visited{
+    color: #ffffff;
+}
+  a:hover{
+    color:  rgb(104, 175, 102);  
+}
+  a {
+    color: black
+}
+  
+  #navegacao {
+    background-color: rgb(0, 0, 0); ;
+    bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: fantasy;
+    text-shadow: 0px 1px color #ffffff;
+    box-shadow: 0px 2px 5px black;
+    color: #ffffff;
+}
+  
+  #area {
+    width: 720px;
+    margin: 0 auto;
+    margin-top: -29px;
+  
+}
+  #area-principal {
+    width: 720px;
+    margin: 10px auto 10px auto;
+  
+}
+  #menu {
+    float: right;
+    padding: 10px 0;
+}
+  .postagem {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 5px green;
+ 
+}
+.postagem-app {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  margin-top: 20px;
+  padding-left: -60px;
+  width: -10px;
+  border-radius: 10px;
+  box-shadow: 2px 5px green;
+}
+  .data-postagem {
+    font-size:  12px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  
+}
+  .img-postagem {
+
+    float: left;
+    margin: 0 10px 5px 0;
+    margin-top: -5px;
+      
+}
+  .img-postagem-app {
+  margin-top: -5px;
+  float: left;
+  margin: 0 10px 5px 0;
+  margin-top: 5px;
+  
+    
+}
+  .postado {
+    border: left 5px solid #000000;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+      
+}
+  
+  
+  h2{
+    color: #000000;
+}
+  #logo {
+    float: left;
+    text-shadow: 0px 1px black;
+}
+  #cadastro {
+    margin-top: 10px;
+  }
+  
+  
+  

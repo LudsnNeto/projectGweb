@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(6, 153, 1);
+}
+
+
+#cadastro-form{ 
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius:  5px 6px;
+  
+}
+h1{
+    font-family: fantasy;
+
+}
+input{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 10px;
+}
+  
+#bnt{
+    background-color:#71a373;
+    border: 0;
+    text-align: center;
+    width: 100px;
+    padding: 5px ;
+    height: 30px;
+    transition: 0.3s ;
+    border-radius: 3px;
+    color: #FFFFFF;
+ 
+}
+#bnt:hover {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.message-1{
+    margin: 15px 0 0;
+    color: #9e9d9d;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.message-1 a{
+    color: #71a373;
+    text-decoration: none;
+
+}
+.message-1 a:hover{
+    color: #2d7e2f;
+}
+
+
