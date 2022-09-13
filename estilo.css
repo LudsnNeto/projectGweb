@@ -1,119 +1,145 @@
 *{
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0; 
 }
-  
-  body {
-    font-size: 14px;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(230, 228, 228);
-    background-color:  rgb(6, 153, 1);
+
+body {
+  font-size: 14px;
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(230, 228, 228);
+  background-color:  rgb(6, 153, 1); 
 }
-  a {
-    text-decoration: none;
-    padding: 5px 10px;
+a {
+  text-decoration: none;
+  padding: 5px 10px;
 }
-  a:link{
-    color: #ffffff;
+a:link{
+  color: #ffffff;
 }
-  a:visited{
-    color: #ffffff;
+a:visited{
+  color: #ffffff;
 }
-  a:hover{
-    color:  rgb(104, 175, 102);  
+a:hover{
+  color:  rgb(104, 175, 102);  
 }
-  a {
-    color: black
+a {
+  color: black
 }
-  
-  #navegacao {
-    background-color: rgb(0, 0, 0); ;
-    bottom: 1px solid #d8d8d8;
-    height: 45px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    font-family: fantasy;
-    text-shadow: 0px 1px color #ffffff;
-    box-shadow: 0px 2px 5px black;
-    color: #ffffff;
+
+#navegacao {
+  background-color: rgb(0, 0, 0); ;
+  bottom: 1px solid #d8d8d8;
+  height: 50px;
+  position: fixed;
+  width: 120%;
+  top: 0;
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: fantasy;
+  text-shadow: 0px 1px color #ffffff;
+  box-shadow: 0px 2px 5px black;
+  color: #ffffff;
 }
-  
-  #area {
-    width: 720px;
-    margin: 0 auto;
-    margin-top: -29px;
-  
+
+#area { 
+  width: 720px;
+  margin: 0 auto;
+  margin-top: -30px;
+
 }
-  #area-principal {
-    width: 720px;
-    margin: 10px auto 10px auto;
-  
+#area-principal {
+  width: 730px;
+  margin: 10px auto 20px auto;
 }
-  #menu {
-    float: right;
-    padding: 10px 0;
-}
-  .postagem {
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 2px 5px green;
- 
+#menu {
+  float: right;
+  padding: 10px 0 30px;
 }
 .postagem-app {
   background-color: rgb(255, 255, 255);
-  padding: 30px;
-  margin-top: 20px;
-  padding-left: -60px;
-  width: -10px;
+  padding: 20px;
+  margin-top: 12px;
   border-radius: 10px;
   box-shadow: 2px 5px green;
 }
-  .data-postagem {
-    font-size:  12px;
-    border-bottom: 1px solid #f4f4f4;
-    display: block;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+.postagem-game {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 10px;
+}
+.postagem-home{
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  margin-top: 12px;
+  border-radius: 10px;
   
 }
-  .img-postagem {
-
-    float: left;
-    margin: 0 10px 5px 0;
-    margin-top: -5px;
-      
+.postagem-app {
+background-color: rgb(255, 255, 255);
+padding: 30px;
+margin-top: 20px;
+padding-left: -60px;
+width: -10px;
+border-radius: 10px;
+box-shadow: 2px 5px green;
 }
-  .img-postagem-app {
-  margin-top: -5px;
+.data-postagem {
+  font-size:  12px;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.img-postagem {
   float: left;
   margin: 0 10px 5px 0;
+  margin-top: -5px;   
+}
+.img-postagem-app {
+margin-top: -2px;
+float: left;
+margin: 0 10px 5px 0;
+margin-top: 3px;
+
+  
+}
+.postado {
+  border: left 5px solid #000000;
+  padding-left: 5px;
+  display: block;
+  margin-top: 8px;    
+}
+
+
+h2{
+  color: #000000;
+  margin-top: -5px;
+  text-shadow: 1px 1px rgb(110, 110, 110);
+  
+}
+#logo {
+  float: left;
+  text-shadow: 0px 1px black;
+}
+#cadastro {
   margin-top: 5px;
+  margin-left: 10px;
+  font-size: 14px;
+
   
-    
 }
-  .postado {
-    border: left 5px solid #000000;
-    padding-left: 5px;
-    display: block;
-    margin-top: 10px;
-      
+#cabecalho-inv{
+  margin-top: 50px;
+  border-style:  solid red;
 }
-  
-  
-  h2{
-    color: #000000;
+.info-post{
+  background-color: rgb(139, 139, 139);
+  border-radius: 3px;
+  margin-top: -10px;
+  height: -35px;
+  width: 100%;
+  padding: 5px 5px 10px;
+
 }
-  #logo {
-    float: left;
-    text-shadow: 0px 1px black;
-}
-  #cadastro {
-    margin-top: 10px;
-  }
-  
-  
-  
