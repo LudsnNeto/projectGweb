@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CADASTRAR</title>
     <link rel="stylesheet" type="text/css" href="cadastroStyle.css">
+    <script>
+    </script>
 </head>
 <body>
     
@@ -14,13 +16,14 @@
         <h1>CADASTRE-SE</h1>
 
         
-        <input type="text" placeholder="usuário123" required>
-        <input type="email" placeholder="email@email.com" required>
-        <input type="password" placeholder="digite sua senha" required>
+        <input id="userName" type="text" placeholder="usuário123" required>
+        <input type="e-mail" placeholder="informe e-mail" required>
+        <input id="usarPass"type="password" placeholder="digite sua senha" required>
         <input type="password" placeholder="confirme a senha" required>
         
+        
 
-        <button id="bnt">CADASTRAR</button>
+        <button id="bnt" onsubmit=salvar()>CADASTRAR</button>
         <p class="message-1">Já possui cadastro? <a href="login.html">Acesse sua conta</a></p>
             
     </form>
